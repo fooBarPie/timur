@@ -1,2 +1,5 @@
 # timur
-An awesome tool
+
+```
+(sudo) npm install -g timur
+```
