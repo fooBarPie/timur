@@ -1,6 +1,6 @@
 {
   "name": "timur",
-  "version": "1.1.1",
+  "version": "0.1.0",
   "description": "An awesome tool (not for the lighthearted)",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
   },
   "author": "Foo Bar",
   "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "timur": "index.js"
+  },
   "bugs": {
     "url": "https://github.com/foobarpie/timur/issues"
   },
