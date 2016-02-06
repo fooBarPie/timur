@@ -1,9 +1,7 @@
+
 #! /usr/bin/env node
 
-const args = process.argv.slice(2);
+const args = process.argv.slice(2, process.argv.length);
 
-console.log(args[0]);
+console.log(`Hello, ${args}!`);
 
-module.exports = function(width, height) {
-	return width * height;
-}
